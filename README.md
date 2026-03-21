@@ -1,46 +1,41 @@
 # E-commerce-Analytics-Project
 
-This repository documents an e-commerce shopping dataset analysis project. The dataset contains approximately 3000 orders across categories like Beauty, Books, Clothing, Electronics, Home, and Sports. Key metrics include total sales of $1,602,681.83, average order value of $534.23, and a return rate of 12.53%.
+## This repository documents an e-commerce shopping dataset analysis project. The dataset contains approximately 3000 orders across categories like Beauty, Books, Clothing, Electronics, Home, and Sports. Key metrics include total sales of $1,602,681.83, average order value of $534.23, and a return rate of 12.53%.
 
-Dataset Overview
-Two files provided:
+## Dataset Overview
+### Two files provided:
+#### Ecommerce_excel_project.xlsx: Pivot tables and charts for sales analysis (monthly trends, state-wise sales, category performance).
+#### E-commerce-Shopping-Dataset.csv: Raw transactional data with columns like orderid, customerid, orderdate, productcategory, productprice, quantity, paymentmethod, deliverystatus, city, state, zipcode, productid, discountapplied, ordervalue, reviewrating, returnrequested.
 
-Ecommerce_excel_project.xlsx: Pivot tables and charts for sales analysis (monthly trends, state-wise sales, category performance).
+### Dataset covers orders from mid-2024 to mid-2025, with 3000 total orders.
 
-E-commerce-Shopping-Dataset.csv: Raw transactional data with columns like orderid, customerid, orderdate, productcategory, productprice, quantity, paymentmethod, deliverystatus, city, state, zipcode, productid, discountapplied, ordervalue, reviewrating, returnrequested.
+## Key Insights
+### Category Performance
+#### Category	Total Sales	Orders	Units Sold	Avg Rating
+#### Home	$284,048.99	537	1330	3.33
+#### Clothing	$283,578.14	506	1293	3.30
+#### Sports	$280,022.21	552	1299	3.12
+#### Books	$264,005.27	476	1195	3.22
+#### Beauty	$257,633.75	483	1197	3.29
+#### Electronics	$233,393.47	446	1085	3.23
+#### Home leads in sales and units sold.
 
-Dataset covers orders from mid-2024 to mid-2025, with 3000 total orders.
+## Delivery Status
+### Cancelled: ~25%
 
-Key Insights
-Category Performance
-Category	Total Sales	Orders	Units Sold	Avg Rating
-Home	$284,048.99	537	1330	3.33
-Clothing	$283,578.14	506	1293	3.30
-Sports	$280,022.21	552	1299	3.12
-Books	$264,005.27	476	1195	3.22
-Beauty	$257,633.75	483	1197	3.29
-Electronics	$233,393.47	446	1085	3.23
-Home leads in sales and units sold.
+## Delivered/Pending/Returned: Balanced distribution across statuses.
 
-Delivery Status
-Cancelled: ~25%
+## Monthly Trends
+### Peak sales in Jul-24 ($180,313) and Mar-25 ($178,230); lowest in Jun-25 ($53,767).
 
-Delivered/Pending/Returned: Balanced distribution across statuses.
+## Geographic Distribution
+### Top states by sales: Hawaii ($40,471), West Virginia ($43,635), Oregon ($43,928).
 
-Monthly Trends
-Peak sales in Jul-24 ($180,313) and Mar-25 ($178,230); lowest in Jun-25 ($53,767).
+## Analysis Performed
+### Pivot tables on sales by category, month, state, status.
+### Trends in net sales, average order value, orders count.
+### Quality metrics by average review ratings.
 
-Geographic Distribution
-Top states by sales: Hawaii ($40,471), West Virginia ($43,635), Oregon ($43,928).
-
-Analysis Performed
-Pivot tables on sales by category, month, state, status.
-
-Trends in net sales, average order value, orders count.
-
-Quality metrics by average review ratings.
-
-Technologies Used
-Excel/Power BI for pivots and dashboards (as per attached Excel).
-
-Suitable for Python (Pandas/Plotly), SQL, Power BI, Streamlit for advanced viz.
+## Technologies Used
+### Excel/Power BI for pivots and dashboards (as per attached Excel).
+### Suitable for Python (Pandas/Plotly), SQL, Power BI, Streamlit for advanced viz.
