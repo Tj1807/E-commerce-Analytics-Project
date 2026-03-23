@@ -23,19 +23,28 @@
 ## Delivery Status
 ### Cancelled: ~25%
 
+
+
 ## Delivered/Pending/Returned: Balanced distribution across statuses.
+<img width="1017" height="552" alt="image" src="https://github.com/user-attachments/assets/0bad77cb-85e9-4d2d-ac86-e69a89f072d8" />
 
 ## Monthly Trends
 ### Peak sales in Jul-24 ($180,313) and Mar-25 ($178,230); lowest in Jun-25 ($53,767).
+<img width="1043" height="360" alt="image" src="https://github.com/user-attachments/assets/8c5c275d-a478-4b1a-8b1a-cd23d60d8d5d" />
+
 
 ## Geographic Distribution
 ### Top states by sales: Hawaii ($40,471), West Virginia ($43,635), Oregon ($43,928).
+<img width="1097" height="403" alt="image" src="https://github.com/user-attachments/assets/5271c66a-134c-4d7d-8386-e22ecf35fe3d" />
+
 
 ## Analysis Performed
 ### Pivot tables on sales by category, month, state, status.
 ### Trends in net sales, average order value, orders count.
 ### Quality metrics by average review ratings.
+<img width="1848" height="575" alt="image" src="https://github.com/user-attachments/assets/db4a15fe-bf21-482d-90ce-80e482c42d7c" />
+
 
 ## Technologies Used
-### Excel/Power BI for pivots and dashboards (as per attached Excel).
+### Excel for pivots and dashboards (as per attached Excel).
 ### Suitable for Python (Pandas/Plotly), SQL, Power BI, Streamlit for advanced viz.
